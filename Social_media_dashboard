@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Media Dashboard</title>
+   <style>
+    body {
+        background-size: cover;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+   </style>
+</head>
+<body background="https://www.shutterstock.com/image-photo/digital-marketing-online-advertising-concept-260nw-2281346489.jpg">
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Notifications</a></li>
+				<li><a href="#">Messages</a></li>
+				<li><a href="#">Settings</a></li>
+			</ul>
+		</nav>
+		<h1>Social Media Dashboard</h1>
+	</header>
+	<main>
+		<section id="posts">
+			<h2>Posts</h2>
+			<article>
+				<h3>Post 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices.</p>
+				<button>Like</button>
+				<button>Comment</button>
+			</article>
+			<article>
+				<h3>Post 2</h3>
+				<p>Aliquam erat volutpat. Sed at libero justo. Nullam id felis et ipsum bibendum ultrices.</p>
+				<button>Like</button>
+				<button>Comment</button>
+			</article>
+			<article>
+				<h3>Post 3</h3>
+				<p>Curabitur ullamcorper turpis vel commodo scelerisque. Phasellus id velit nulla. Donec ac odio justo.</p>
+				<button>Like</button>
+				<button>Comment</button>
+			</article>
+		</section>
+		<aside id="sidebar">
+			<h3>Popular Posts</h3>
+			<article>
+				<h4>Post 1</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices.</p>
+			</article>
+			<article>
+				<h4>Post 2</h4>
+				<p>Aliquam erat volutpat. Sed at libero justo. Nullam id felis et ipsum bibendum ultrices.</p>
+			</article>
+			<article>
+				<h4>Post 3</h4>
+				<p>Curabitur ullamcorper turpis vel commodo scelerisque. Phasellus id velit nulla. Donec ac odio justo.</p>
+			</article>
+		</aside>
+	</main>
+
+</body>
+</html>
